@@ -28,8 +28,8 @@ public class Generator {
         globalConfig.setOpen(false)//是否打开输出目录 默认true
                 .setOutputDir(System.getProperty("user.dir")+"/src/main/java")//生成文件的输出目录
                 .setFileOverride(true)//是否覆盖已有文件 默认false
-                .setBaseResultMap(true)//开启 BaseResultMap 默认false
-                .setBaseColumnList(true)//开启 baseColumnList 默认false
+//                .setBaseResultMap(true)//开启 BaseResultMap 默认false
+//                .setBaseColumnList(true)//开启 baseColumnList 默认false
                 .setActiveRecord(false)//开启 ActiveRecord 模式 默认false
                 .setAuthor(author)//开发人员
                 .setDateType(DateType.ONLY_DATE)
