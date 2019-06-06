@@ -24,6 +24,6 @@ public class Response {
     }
 
     private static Response success(Object body) {
-        return new Response(GlobalConts.Code.SUCCESS,GlobalConts.Message.SUCCESS,body);
+        return new Response(GlobalConst.Code.SUCCESS, GlobalConst.Message.SUCCESS,body);
     }
 }

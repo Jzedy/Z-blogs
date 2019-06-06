@@ -5,7 +5,7 @@ package com.cn.jzedy.blogs.base;
  * @time 19-6-5
  * @description
  */
-public interface GlobalConts {
+public interface GlobalConst {
 
     interface Code{
         Integer SUCCESS = 200;
@@ -14,6 +14,6 @@ public interface GlobalConts {
     }
 
     interface Message{
-        String SUCCESS = "success";
+        String SUCCESS = "SUCCESS";
     }
 }
